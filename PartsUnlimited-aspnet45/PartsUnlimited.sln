@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartsUnlimited.UnitTests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.SeleniumTests", "test\FabrikamFiber.SeleniumTests\FabrikamFiber.SeleniumTests.csproj", "{8BA1E3A6-DD40-4534-B987-712B6A6E1D02}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "PartsUnlimited.DepValidation", "PartsUnlimited.DepValidation\PartsUnlimited.DepValidation.modelproj", "{17652060-8A22-4C4F-AB62-AF5A32C39553}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
