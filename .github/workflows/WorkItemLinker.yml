@@ -1,12 +1,17 @@
+name: Get azdo wi link step
+
 on:
   pull_request:
     branches: [ master ]
     
-- name: Get azdo wi link step
-        uses: solidify/github-action-azdo-link@master
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: solidify/github-action-azdo-link@master
         with:
           organization: 'SolidifyDemo'
           projectName: 'Azure DevOps-GitHub Demo'
-          GITHUB_TOKEN: ${{secrets.GH_PERSONAL_ACCESS_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     
 
