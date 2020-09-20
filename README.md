@@ -1,15 +1,38 @@
-# Parts Unlimited#
+# GitHub RoadShow, Azure DevOps and GitHub integration #
 
-Parts Unlimited is an example eCommerce website site based for training purposes on the website described in chapters 31-35 of The Phoenix Project, by Gene Kim, Kevin Behr and George Spafford, © 2013 IT Revolution Press LLC, Portland, OR. Resemblance to “Project Unicorn” in the novel is intentional; resemblance to any real company is purely coincidental.
+## Details ##
+Many of you have probably used Azure DevOps/TFS for years and have invested a lot of effort and time in it, maybe you are starting to use GitHub for some part of your development.
+Azure DevOps and GitHub is a really good match and in this RoadShow event we are going to show you how the products integrate with each other.
 
-To read more about this project, please view the [Getting Started docs](docs/GettingStarted.md). The website includes product listings by category, product details, shopping cart, order history, product recommendations, search, and more.  To get started learning about building and managing the site, visit the Parts Unlimited docs for hands-on labs. 
+We are going to show you things as:
+- [Using Azure boards mentions in a GitHub Commit](https://docs.microsoft.com/en-us/azure/devops/boards/github/?view=azure-devops)
+- [Azure boards and GitHub Commits and Pull Requests]()](https://docs.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?view=azure-devops)
+- [Azure Pipelines with code in GitHub](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#access-to-github-repositories)
+- [How to sync issues in GitHub with Azure Boards Work Items](https://github.com/marketplace/actions/github-issues-to-azure-devops)
+- [How to use GritHub actions for other integrations](https://github.com/marketplace/actions/azure-devops-work-item-linker)
 
-## Key Features##
-- Works with Visual Studio 2013 Update 4 (other versions may work but not tested)
-- Uses ASP.NET 4.5
-- Modern HTML5 responsive layout using bootstrap for mobile, tablet, and PC
-- Designed for Azure Websites, including Testing in Production, Staging slots and environment variables for feature flags (to turn off recommendations)
-- Basic administration pages to add or edit product information
-- Includes Azure RM JSON templates and PowerShell automation scripts to easily build and provision your environment
+## What I did ##
+- [Created project with Azure DevOps demo generator](https://azuredevopsdemogenerator.azurewebsites.net/)
+  - https://dev.azure.com/solidifydemo/Azure%20DevOps-GitHub%20Demo
+- Created a repo in GitHub
+  - https://github.com/SolidifyDemo/AzureDevOps-GitHub-Demo
+- Cloned Azure DevOps repo to GitHub
+Git Clone https://solidifydemo@dev.azure.com/solidifydemo/Azure%20DevOps-GitHub%20Demo/_git/PartsUnlimited
+```
+Git remote remove origin
+Git remote add origin https://github.com/SolidifyDemo/AzureDevOps-GitHub-Demo.git
+Git branch -M master
+Git push -u origin master
+```
+- Disabled Azure repos in Azure DevOps
+- Set up oauth or PAT to connect to boards
+- Setup up a build and connected to GitHub 
+- Created branch policy in GitHub
+- Added Sync GitHub Action to repo and configured it
 
-**Media Elements and Templates.** You may copy and use images, clip art, animations, sounds, music, shapes, video clips and templates provided with the sample application and identified for such use in documents and projects that you create using the sample application. These use rights only apply to your use of the sample application and you may not redistribute such media otherwise.
+
+## Other Links ##
+- Meetup: https://www.meetup.com/swedish-ms-alm-devops/events/
+- Solidify homepage: https://www.solidify.se/events
+- Solidify on LinkedIn: https://www.linkedin.com/company/solidify-dev
+- Recordings: https://www.youtube.com/channel/UChHumq_I3ne3nnoQ0B_KNgQ
