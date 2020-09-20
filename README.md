@@ -1,7 +1,5 @@
 # GitHub RoadShow, Azure DevOps and GitHub integration #
 
-[![Board Status](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/b784ad7c-2945-455d-821f-57f4d1152f5a/_apis/work/boardbadge/194f0f53-756a-4871-ad09-b43d0e302978)](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/_boards/board/t/b784ad7c-2945-455d-821f-57f4d1152f5a/Microsoft.RequirementCategory/)
-
 ## Details ##
 Many of you have probably used Azure DevOps/TFS for years and have invested a lot of effort and time in it, maybe you are starting to use GitHub for some part of your development.
 Azure DevOps and GitHub is a really good match and in this RoadShow event we are going to show you how the products integrate with each other.
