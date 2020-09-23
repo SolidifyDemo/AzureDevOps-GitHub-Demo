@@ -40,4 +40,4 @@
 - Show this action: https://github.com/marketplace/actions/azure-devops-work-item-linker 
 - Show code and parameters
 - Do a small change and a PR
-- Show that the link yirns up in the Pull Request flow
+- Show that the link turn up in the Pull Request flow
