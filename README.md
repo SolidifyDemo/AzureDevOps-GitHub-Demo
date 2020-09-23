@@ -32,6 +32,8 @@ Git push -u origin master
 
 
 ## Other Links ##
+- Migrating from TFVC to GitHub: https://solidify.dev/blog/migrating-from-tfvc-to-github
+- Azure DevOps vs GitHub: what's the difference? https://solidify.dev/blog/azure-devops-vs-github-difference
 - Meetup: https://www.meetup.com/swedish-ms-alm-devops/events/
 - Solidify homepage: https://www.solidify.se/events
 - Solidify on LinkedIn: https://www.linkedin.com/company/solidify-dev
