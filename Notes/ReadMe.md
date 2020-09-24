@@ -1,6 +1,8 @@
 # Notes #
+Azure boards and GitHub are both tools we love and we want to show you how to use them together.
 
 ## Azure Boards with GitHub commits and PR ##
+Use Case: We have moved our code to GitHub but still use Azure Boards and what to get PR and commits connected to or Work Items
 - Open: https://dev.azure.com/solidifydemo and show the Kanban board
 - Goto project settings and show GitHub connections
 - Show ways to connect, oauth, PAT or username and password
@@ -17,6 +19,7 @@
 - Do a change in the md and create a pull request, add fixed AB#20591 in the title or commit message
 
 ## Azure Pipelines with code in GitHub ##
+Use Case: We have moved our code to GitHub but want to continoue to use Azure Pipelines for building
 - Turn of Branch policy
 - Goto pipelines and create a new build, show classic and YAML
 - Connect to the AzureDevOps-GitHub-Demo repo
@@ -30,14 +33,24 @@
 - Commit: Fixes AB#20593
 
 ## How to sync issues in GitHub with Azure Boards Work Items ##
+Actions can be used to all kinds of automations, not only CI/CD
+
+Use Case: We have an open source project in GitHub and want the Issues synced to Azure Boards we we dou our "bigger" planning
 - Show this action at GitHub Marketplace: https://github.com/marketplace/actions/github-issues-to-azure-devops
 - Show actions YAML
 - Show secrets 
 - Goto issues and add a new issue, add a picture
 - Show that it turns up in Azure Boards. Close it
 
-## How to use GitHub actions for other integrations ##
+## How to use GitHub actions work item linking ##
+At Solidify we have started to move our code to GitHub some time ago but still we keep our planning in Azure boards
+A few weeks ago we hack exercise we we spent half a day designing stuff to help us in our work. 
+
+Use Case: We want a link to the Azure Boards work item in a pull request we you don't have to jump back and forth between GitHub and Azure boards
 - Show this action: https://github.com/marketplace/actions/azure-devops-work-item-linker 
 - Show code and parameters
 - Do a small change and a PR
 - Show that the link turn up in the Pull Request flow
+
+## Show insights
+-  Go to GitHub insights to se stats of how many has been there
