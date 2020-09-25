@@ -24,6 +24,7 @@ Use Case: We have moved our code to GitHub but still use Azure Boards and want t
 
 ## Azure Pipelines with code in GitHub ##
 Use Case: We have moved our code to GitHub but want to continoue to use Azure Pipelines for building
+- Lets start by modifying an existing build from using Azure Repos til GitHub: SolidifyDemo/AzureDevOps-GitHub-Demo
 - Goto pipelines and create a new build, show classic and YAML
 - Connect to the AzureDevOps-GitHub-Demo repo
 - Select a dot net framework template
@@ -38,7 +39,7 @@ Use Case: We have moved our code to GitHub but want to continoue to use Azure Pi
 ## How to sync issues in GitHub with Azure Boards Work Items ##
 Actions can be used to all kinds of automations, not only CI/CD
 
-Use Case: We have an open source project in GitHub and want the Issues synced to Azure Boards we we do our "bigger" planning
+Use Case: We have an open source project in GitHub and want the Issues synced to Azure Boards where we do our "bigger" planning
 - Show this action at GitHub Marketplace: https://github.com/marketplace/actions/github-issues-to-azure-devops
 - Show actions YAML
 - Show secrets 
