@@ -1,5 +1,6 @@
 # Notes #
-Show links in teams 
+- Show links in teams 
+
 Azure boards and GitHub are both tools we love and we want to show you how to use them together.
 
 ## Azure Boards with GitHub commits and PR ##
