@@ -1,4 +1,5 @@
 # Notes #
+Show links in teams 
 Azure boards and GitHub are both tools we love and we want to show you how to use them together.
 
 ## Azure Boards with GitHub commits and PR ##
@@ -15,12 +16,13 @@ Use Case: We have moved our code to GitHub but still use Azure Boards and want t
 [![Board Status](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/b784ad7c-2945-455d-821f-57f4d1152f5a/_apis/work/boardbadge/194f0f53-756a-4871-ad09-b43d0e302978)](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/_boards/board/t/b784ad7c-2945-455d-821f-57f4d1152f5a/Microsoft.RequirementCategory/)
 ```
 - In the title or commit message write AB#20591
-- Show branch policy that require pull request
+- Show connection in Azure boards
+- Show branch policy that require pull request and build, don't turn it on
 - Do a change in the md and create a pull request, add fixed AB#20591 in the title or commit message
+- Show Azure Boards again
 
 ## Azure Pipelines with code in GitHub ##
 Use Case: We have moved our code to GitHub but want to continoue to use Azure Pipelines for building
-- Turn of Branch policy
 - Goto pipelines and create a new build, show classic and YAML
 - Connect to the AzureDevOps-GitHub-Demo repo
 - Select a dot net framework template
@@ -35,7 +37,7 @@ Use Case: We have moved our code to GitHub but want to continoue to use Azure Pi
 ## How to sync issues in GitHub with Azure Boards Work Items ##
 Actions can be used to all kinds of automations, not only CI/CD
 
-Use Case: We have an open source project in GitHub and want the Issues synced to Azure Boards we we dou our "bigger" planning
+Use Case: We have an open source project in GitHub and want the Issues synced to Azure Boards we we do our "bigger" planning
 - Show this action at GitHub Marketplace: https://github.com/marketplace/actions/github-issues-to-azure-devops
 - Show actions YAML
 - Show secrets 
