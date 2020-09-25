@@ -2,7 +2,7 @@
 Azure boards and GitHub are both tools we love and we want to show you how to use them together.
 
 ## Azure Boards with GitHub commits and PR ##
-Use Case: We have moved our code to GitHub but still use Azure Boards and what to get PR and commits connected to or Work Items
+Use Case: We have moved our code to GitHub but still use Azure Boards and want to get PR and commits connected to or Work Items
 - Open: https://dev.azure.com/solidifydemo and show the Kanban board
 - Goto project settings and show GitHub connections
 - Show ways to connect, oauth, PAT or username and password
