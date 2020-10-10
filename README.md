@@ -34,10 +34,11 @@ Git push -u origin master
 - Added Sync GitHub Action to repo and configured it
 
 
-## Other Links ##
+## Links ##
 - Migrating from TFVC to GitHub: https://solidify.dev/blog/migrating-from-tfvc-to-github
 - Azure DevOps vs GitHub: what's the difference? https://solidify.dev/blog/azure-devops-vs-github-difference
 - Meetup: https://www.meetup.com/swedish-ms-alm-devops/events/
 - Solidify homepage: https://www.solidify.se/events
 - Solidify on LinkedIn: https://www.linkedin.com/company/solidify-dev
 - Recordings: https://www.youtube.com/channel/UChHumq_I3ne3nnoQ0B_KNgQ
+- Demo repo in Azure DevOps: https://dev.azure.com/solidifydemo/Azure%20DevOps-GitHub%20Demo
