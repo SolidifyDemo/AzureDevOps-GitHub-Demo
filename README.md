@@ -4,7 +4,7 @@
 [![Build Status](https://dev.azure.com/solidifydemo/Azure%20DevOps-GitHub%20Demo/_apis/build/status/SolidifyDemo.AzureDevOps-GitHub-Demo?branchName=master)](https://dev.azure.com/solidifydemo/Azure%20DevOps-GitHub%20Demo/_build/latest?definitionId=211&branchName=master)
 
 ## Details ##
-Many of you have probably used Azure DevOps/TFS for years and have invested a lot of effort and time in it, maybe you are starting to use GitHub for some part of your development....
+Many of you have probably used Azure DevOps/TFS for years and have invested a lot of effort and time in it, maybe you are starting to use GitHub for some part of your development..
 Azure DevOps and GitHub is a really good match and in this RoadShow event we are going to show you how the products integrate with each other.
 
 We are going to show you things as:
