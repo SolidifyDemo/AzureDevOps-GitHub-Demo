@@ -16,7 +16,7 @@ Use Case: We have moved our code to GitHub but still use Azure Boards and want t
 ```
 [![Board Status](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/b784ad7c-2945-455d-821f-57f4d1152f5a/_apis/work/boardbadge/194f0f53-756a-4871-ad09-b43d0e302978)](https://dev.azure.com/solidifydemo/0ea002ce-c62d-41f1-95fc-c1afff80c684/_boards/board/t/b784ad7c-2945-455d-821f-57f4d1152f5a/Microsoft.RequirementCategory/)
 ```
-- In the title or commit message write AB#20591
+- In the title or commit message write AB#20949
 - Show connection in Azure boards
 - Show branch policy that require pull request and build, don't turn it on
 - Do a change in the md and create a pull request, add fixed AB#20949 in the title or commit message
