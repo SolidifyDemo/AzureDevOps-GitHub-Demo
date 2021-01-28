@@ -19,7 +19,7 @@ Use Case: We have moved our code to GitHub but still use Azure Boards and want t
 - In the title or commit message write AB#20591
 - Show connection in Azure boards
 - Show branch policy that require pull request and build, don't turn it on
-- Do a change in the md and create a pull request, add fixed AB#20591 in the title or commit message
+- Do a change in the md and create a pull request, add fixed AB#20949 in the title or commit message
 - Show Azure Boards again
 
 ## Azure Pipelines with code in GitHub ##
